@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  margin: 0;
+  min-height: 100vh;
+  /* background: linear-gradient(to bottom, #2d252d, #121827); */
+
+  background: linear-gradient(to bottom, rgba(224, 1, 125, 0.06), #f5f3f3);
+
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scrollbar-width: revert;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #c80c81;
+}
+
+h6 {
+  color: white;
+}
+h5 {
+  color: white;
+}
+h4 {
+  color: #f9f9f9;
+}
+
+p {
+  color: white;
+  font-size: 18px;
+  /* font-weight: 100; */
+}
+
+/* .container {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.container {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+} */
+
+.card-theme {
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.1),
+    /* rgba(255, 255, 255, 0.1) */
+  );
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5), -1px -1px 2px #121827,
+    0.5px 0.5px 0.5px #555;
+  backdrop-filter: blur(0.8rem);
+  /* padding: 1.5rem; */
+  border-radius: 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+.card-theme2 {
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.02)
+  );
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5), -1px -1px 2px #121827,
+    1px 1px 2px #555;
+  backdrop-filter: blur(0.8rem);
+  /* padding: 1.5rem; */
+  border-radius: 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+.card-item-theme {
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.02)
+  );
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5), -1px -1px 2px #121827,
+    1px 1px 2px #555;
+  backdrop-filter: blur(0.8rem);
+  /* padding: 1.5rem; */
+  border-radius: 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+.styled-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+  color: aquamarine;
+  /* &::-webkit-scrollbar {
+    width: 1px;
+  } */
+
+  /* &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  } */
+}
